@@ -6,13 +6,13 @@
 const int relayPin = 26;
 
 // WiFi credentials
-const char* WIFI_SSID = "Shadhin WiFi";
-const char* WIFI_PASS = "1234567m";
+const char* WIFI_SSID = "Your Wifi SSID";
+const char* WIFI_PASS = "Wifi Password";
 
 // SinricPro credentials (get from website)
-#define APP_KEY    "c586b140-c06e-43ee-8de4-d2dcec960063"     // From SinricPro dashboard
-#define APP_SECRET "bf333a08-063e-4201-9acc-bb4992e74ba7-81d7fa33-cf74-4599-ba50-02b59f5b4be6"  // From SinricPro dashboard
-#define DEVICE_ID "68d556ea382e7b1db3a153ad"     // From SinricPro dashboard
+#define APP_KEY    "APP_KEY"     // From SinricPro dashboard
+#define APP_SECRET "APP_SECRET"  // From SinricPro dashboard
+#define DEVICE_ID "DEVICE_ID"     // From SinricPro dashboard
 
 
 #define RELAY_PIN 26  // GPIO 26 connected to relay
